@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GrassPlanting">
+      <UniqueIdentifier>{e86959ab-d9c5-44bd-be7c-d2ac431002da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\emop">
+      <UniqueIdentifier>{018f712d-765f-4032-ac88-d58c5b997e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\photoshoot2">
+      <UniqueIdentifier>{5f49728e-8cb5-490a-97bf-d5e327b95793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cowntaigan">
+      <UniqueIdentifier>{7d39bf39-4eac-4c41-bb57-6a2c3f12fe1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\towerOFHanio">
+      <UniqueIdentifier>{c57a47ab-3b63-4cfa-9289-18fc00cebf9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\countHaybales">
+      <UniqueIdentifier>{23a17f66-33e6-4f47-91e1-b9cdc5c8e888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mooTube">
+      <UniqueIdentifier>{8930eb08-81cc-4dec-9f12-204a64f9068a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\combinationLock">
+      <UniqueIdentifier>{b4708222-76ec-4e21-86da-dd96083ad370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fencePlanning">
+      <UniqueIdentifier>{0d157709-7bc5-45fe-98e2-a682e9d73c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mooCast">
+      <UniqueIdentifier>{ecee545d-683e-4c9c-8f4a-1d361e0ae2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\YearOFCow">
+      <UniqueIdentifier>{1804449f-dff6-40e3-8c63-b0dc1b567e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wormhole">
+      <UniqueIdentifier>{6b676a71-fdc2-419c-87f8-91c8ff701fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\icyPerimeter">
+      <UniqueIdentifier>{c154e281-11be-450f-b1d9-a4ccc337729b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\whycowcrossii">
+      <UniqueIdentifier>{ba68e7b0-4051-4301-a068-4d7fed6c775f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\autoComplete">
+      <UniqueIdentifier>{2af376ef-b5cb-4b20-a0a9-7e0ed80c28bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\switchLight">
+      <UniqueIdentifier>{10dd73ee-2ebf-42a1-bd88-03edb9c3aedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\whyCowCross3">
+      <UniqueIdentifier>{963d852c-8b87-407a-93fc-dd00355c3dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Traffc">
+      <UniqueIdentifier>{04bdccb2-69c1-44df-abd7-78c5b18af11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wormHoles">
+      <UniqueIdentifier>{3430239e-0888-4045-85db-2b92fec2e544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\arithmeticProg">
+      <UniqueIdentifier>{5d23e54d-be88-4fe2-802c-6b3446f882f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\messageRelay">
+      <UniqueIdentifier>{df117dbc-d14e-4c00-bf40-0c7c4a824bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MothersMilk">
+      <UniqueIdentifier>{0b5e97d8-5751-42b8-bc62-33f65391b9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mooTube\visits">
+      <UniqueIdentifier>{5bfdede3-d315-4b06-ab5d-1ee03908995f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\livestockLineup">
+      <UniqueIdentifier>{38423437-72c3-4354-ad49-18ede4a030fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="emop.cpp">
+      <Filter>Source Files\emop</Filter>
+    </ClCompile>
+    <ClCompile Include="grassPlanting.cpp">
+      <Filter>Source Files\GrassPlanting</Filter>
+    </ClCompile>
+    <ClCompile Include="photoshoot2.cpp">
+      <Filter>Source Files\photoshoot2</Filter>
+    </ClCompile>
+    <ClCompile Include="cowntaiganRecur.cpp">
+      <Filter>Source Files\cowntaigan</Filter>
+    </ClCompile>
+    <ClCompile Include="cowntaiganIter.cpp">
+      <Filter>Source Files\cowntaigan</Filter>
+    </ClCompile>
+    <ClCompile Include="tower.cpp">
+      <Filter>Source Files\towerOFHanio</Filter>
+    </ClCompile>
+    <ClCompile Include="countHaybales1.cpp">
+      <Filter>Source Files\countHaybales</Filter>
+    </ClCompile>
+    <ClCompile Include="mooTube.cpp">
+      <Filter>Source Files\mooTube</Filter>
+    </ClCompile>
+    <ClCompile Include="lock.cpp">
+      <Filter>Source Files\combinationLock</Filter>
+    </ClCompile>
+    <ClCompile Include="fencePlanning.cpp">
+      <Filter>Source Files\fencePlanning</Filter>
+    </ClCompile>
+    <ClCompile Include="mooCast.cpp">
+      <Filter>Source Files\mooCast</Filter>
+    </ClCompile>
+    <ClCompile Include="yearCow.cpp">
+      <Filter>Source Files\YearOFCow</Filter>
+    </ClCompile>
+    <ClCompile Include="wormholes.cpp">
+      <Filter>Source Files\wormhole</Filter>
+    </ClCompile>
+    <ClCompile Include="icyPerimeter.cpp">
+      <Filter>Source Files\icyPerimeter</Filter>
+    </ClCompile>
+    <ClCompile Include="whycowcrossii.cpp">
+      <Filter>Source Files\whycowcrossii</Filter>
+    </ClCompile>
+    <ClCompile Include="autoComplete.cpp">
+      <Filter>Source Files\autoComplete</Filter>
+    </ClCompile>
+    <ClCompile Include="aaaa.cpp">
+      <Filter>Source Files\autoComplete</Filter>
+    </ClCompile>
+    <ClCompile Include="switchLight.cpp">
+      <Filter>Source Files\switchLight</Filter>
+    </ClCompile>
+    <ClCompile Include="whyCowCross3.cpp">
+      <Filter>Source Files\whyCowCross3</Filter>
+    </ClCompile>
+    <ClCompile Include="switchLightt.cpp">
+      <Filter>Source Files\switchLight</Filter>
+    </ClCompile>
+    <ClCompile Include="whyCowCrossRoadIII.cpp">
+      <Filter>Source Files\switchLight</Filter>
+    </ClCompile>
+    <ClCompile Include="trafficLight.cpp">
+      <Filter>Source Files\Traffc</Filter>
+    </ClCompile>
+    <ClCompile Include="wormHole.cpp">
+      <Filter>Source Files\wormHoles</Filter>
+    </ClCompile>
+    <ClCompile Include="ariprog.cpp">
+      <Filter>Source Files\arithmeticProg</Filter>
+    </ClCompile>
+    <ClCompile Include="messageRelay.cpp">
+      <Filter>Source Files\messageRelay</Filter>
+    </ClCompile>
+    <ClCompile Include="milk3.cpp">
+      <Filter>Source Files\MothersMilk</Filter>
+    </ClCompile>
+    <ClCompile Include="visits.cpp">
+      <Filter>Source Files\mooTube\visits</Filter>
+    </ClCompile>
+    <ClCompile Include="liveStockLineup.cpp">
+      <Filter>Source Files\livestockLineup</Filter>
+    </ClCompile>
+    <ClCompile Include="abcMILK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

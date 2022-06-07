@@ -1,0 +1,94 @@
+﻿  aaaa.cpp
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(45,15): error C2131: expression did not evaluate to a constant
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(45,15): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(45,15): message : see usage of 'w'
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(45,35): warning C4552: '>>': result of expression not used
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(45,78): error C2664: 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert(std::initializer_list<std::pair<const std::string,int>>)': cannot convert argument 1 from 'std::pair<_Unrefwrap_helper<decay<std::string(&)[w]>::type>::type,int>' to 'std::initializer_list<std::pair<const std::string,int>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=int,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,int>>
+          ]
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(45,61): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xtree(1268,10): message : see declaration of 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert'
+          with
+          [
+              _Kty=std::string,
+              _Ty=int,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,int>>
+          ]
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(51,13): error C2672: 'lower_bound': no matching overloaded function found
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(51,47): error C2893: Failed to specialize function template '_FwdIt std::lower_bound(_FwdIt,_FwdIt,const _Ty &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xutility(5920): message : see declaration of 'std::lower_bound'
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(51,47): message : With the following template arguments:
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(51,47): message : '_FwdIt=std::string [w]'
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(51,47): message : '_Ty=std::string'
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(51,47): error C2780: '_FwdIt std::lower_bound(_FwdIt,const _FwdIt,const _Ty &,_Pr)': expects 4 arguments - 3 provided
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xutility(5898): message : see declaration of 'std::lower_bound'
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(52,6): error C3536: 'it': cannot be used before it is initialized
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(57,16): error C2100: illegal indirection
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(57,19): error C2088: '[': illegal for class
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(40,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\aaaa.cpp(41,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ariprog.cpp
+  autoComplete.cpp
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\autoComplete.cpp(45,13): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\autoComplete.cpp(24,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\autoComplete.cpp(25,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  countHaybales1.cpp
+  grassPlanting.cpp
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\grassPlanting.cpp(29,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\grassPlanting.cpp(30,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  icyPerimeter.cpp
+  liveStockLineup.cpp
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\liveStockLineup.cpp(49,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\liveStockLineup.cpp(94,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\liveStockLineup.cpp(57,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\liveStockLineup.cpp(58,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  lock.cpp
+  messageRelay.cpp
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\messageRelay.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\messageRelay.cpp(22,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\messageRelay.cpp(23,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\messageRelay.cpp(25,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\messageRelay.cpp(28,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  milk3.cpp
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\milk3.cpp(23,8): error C2062: type 'int' unexpected
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\milk3.cpp(69,14): error C2065: 'B': undeclared identifier
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\milk3.cpp(69,19): error C2065: 'C': undeclared identifier
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\milk3.cpp(73,10): error C2065: 'C': undeclared identifier
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\milk3.cpp(77,12): error C2065: 'C': undeclared identifier
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\milk3.cpp(63,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\milk3.cpp(64,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  mooCast.cpp
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\mooCast.cpp(25,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\mooCast.cpp(26,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  mooTube.cpp
+  switchLight.cpp
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\switchLight.cpp(51,5): error C2660: 'checker': function does not take 2 arguments
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\switchLight.cpp(22,6): message : see declaration of 'checker'
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\switchLight.cpp(64,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\switchLight.cpp(82,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\switchLight.cpp(83,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  switchLightt.cpp
+  whyCowCross3.cpp
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\whyCowCross3.cpp(12,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\whyCowCross3.cpp(19,89): error C2561: 'aaa': function must return a value
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\whyCowCross3.cpp(18): message : see declaration of 'aaa'
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\whyCowCross3.cpp(30,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\whyCowCross3.cpp(31,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  whycowcrossii.cpp
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\whycowcrossii.cpp(10,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\whycowcrossii.cpp(19,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\whycowcrossii.cpp(20,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  wormHole.cpp
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\wormHole.cpp(72,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\wormHole.cpp(73,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  wormholes.cpp
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\wormholes.cpp(13,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Vijay\Documents\GitHub\CPP_Class_For_Usaco_David_Zhu\files\Files\wormholes.cpp(14,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  yearCow.cpp
+  Generating Code...
